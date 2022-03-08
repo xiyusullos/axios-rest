@@ -1,6 +1,6 @@
 {
-  "name": "axios-rest",
-  "version": "0.2.0",
+  "name": "@aponder.top/axios-rest",
+  "version": "0.2.1",
   "description": "This library intends to provide an elegant RESTful client.",
   "author": "aponder",
   "main": "index.js",
@@ -31,5 +31,13 @@
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",
     "axios": "^0.21.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/xiyusullos/axios-rest/issues"
+  },
+  "homepage": "https://github.com/xiyusullos/axios-rest#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
