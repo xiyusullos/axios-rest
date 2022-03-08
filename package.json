@@ -1,0 +1,35 @@
+{
+  "name": "axios-rest",
+  "version": "0.1.0",
+  "description": "This library intends to provide an elegant RESTful client.",
+  "author": "aponder",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && npx babel src --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "axios",
+    "rest",
+    "api",
+    "restful",
+    "resource",
+    "rest-client"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiyusullos/axios-rest.git"
+  },
+  "peerDependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "axios": "^0.21.1"
+  }
+}
