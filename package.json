@@ -1,6 +1,6 @@
 {
   "name": "axios-rest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This library intends to provide an elegant RESTful client.",
   "author": "aponder",
   "main": "index.js",
