@@ -1,4 +1,4 @@
-# Requests-REST: A RESTful client based on requests
+# Axios-REST: A RESTful client based on axios
 
 This library intends to provide an elegant RESTful client.
 
