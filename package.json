@@ -1,6 +1,6 @@
 {
   "name": "@aponder.top/axios-rest",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "description": "This library intends to provide an elegant RESTful client.",
   "author": "aponder",
   "main": "src/index.js",
@@ -24,7 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/xiyusullos/axios-rest.git"
   },
-  "peerDependencies": {
+  "dependencies": {
     "axios": "^0.21.1"
   },
   "devDependencies": {
@@ -39,6 +39,5 @@
   "homepage": "https://github.com/xiyusullos/axios-rest#readme",
   "directories": {
     "test": "test"
-  },
-  "dependencies": {}
+  }
 }
