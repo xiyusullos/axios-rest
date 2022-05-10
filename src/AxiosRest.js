@@ -67,7 +67,8 @@ class Resource {
       throw Error('Not support type: ' + type)
     }
 
-    const resourcePath = `${this.axiosRequestConfig.url}${subresourcePath}`
+    const url = this.axiosRequestConfig ? this.axiosRequestConfig.url : this.resourcePath
+    const resourcePath = `${url}${subresourcePath}`
     return new Resource(resourcePath, rest, this)
   }
 
