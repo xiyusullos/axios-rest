@@ -11,6 +11,8 @@ npm i @aponder.top/axios-rest
 ## Usage example
 
 ```javascript
+import axiosRest from '@aponder.top/axios-rest'
+
 const handleOk = (r) => console.info(r)
 const handleError = (e) => console.debug(e.toString())
 
@@ -34,7 +36,7 @@ const newUser = { username: 'root', password: 'root' }
 _ = Users
 console.info(`\nTest: ${_.resourcePath}`)
 _.create(newUser).response//.then(handleOk).catch(handleError)
-_.list({page: 1, page_size: 10}).response
+_.list({ page: 1, page_size: 10 }).response
 _.detail(1).response
 _.update(10, newUser).response
 _.partial_update(11, newUser).response
@@ -54,7 +56,7 @@ let Blogs = Rest('blogs')
 _ = Blogs
 console.info(`\nTest: ${_.resourcePath}`)
 _.create(newUser).response//.then(handleOk).catch(handleError)
-_.list({page: 1, page_size: 10}).response
+_.list({ page: 1, page_size: 10 }).response
 _.detail(1).response
 _.update(10, newUser).response
 _.partial_update(11, newUser).response
@@ -65,7 +67,7 @@ let User10Blogs = Users.detail(10).of(Blogs)
 _ = User10Blogs
 console.info(`\nTest: ${_.resourcePath}`)
 _.create(newUser).response//.then(handleOk).catch(handleError)
-_.list({page: 1, page_size: 10}).response
+_.list({ page: 1, page_size: 10 }).response
 _.detail(1).response
 _.update(10, newUser).response
 _.partial_update(11, newUser).response
@@ -76,7 +78,7 @@ let User10Articles = Users.detail(10).of('articles')
 _ = User10Articles
 console.info(`\nTest: ${_.resourcePath}`)
 _.create(newUser).response//.then(handleOk).catch(handleError)
-_.list({page: 1, page_size: 10}).response
+_.list({ page: 1, page_size: 10 }).response
 _.detail(1).response
 _.update(10, newUser).response
 _.partial_update(11, newUser).response
